@@ -1,0 +1,104 @@
+body {
+    background: #477148;
+    margin: 0;
+    padding: 0;
+}
+
+section.poker-table {
+    display: block;
+    margin: 3em;
+}
+
+.poker-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.poker-container .poker-hand-history {
+    flex: 1;
+}
+
+.poker-container .poker-playspace {
+    flex: 2;
+    border: 2px solid #444;
+    border-radius: 6px;
+    display: flex;
+}
+
+.poker-playspace .poker-hand-col,
+.poker-playspace .poker-deck-col {
+    height: 300px;
+}
+
+.poker-playspace .poker-deck-col .deck-placeholder,
+.poker-playspace .poker-hand-col .hand-placeholder {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deck-placeholder .back {
+    background-image: url(cards.png);
+}
+
+.deck-placeholder .back:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.hand-placeholder .randomized-hand-drop {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+.hand-placeholder .randomized-hand-drop * {
+    background-image: url(cards.png);
+    margin: 0 5px;
+}
+
+.poker-hand-col {
+    flex: 2
+}
+
+.poker-deck-col {
+    flex: 1
+}
+
+
+.poker-hand-history {
+    height: 300px;
+}
+
+.poker-hand-history .hand-record-title,
+.poker-hand-history .hands-list {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #eee;
+
+}
+
+.hands-list::-webkit-scrollbar-track {
+    border: 1px solid #000;
+    padding: 2px 0;
+    background-color: #404040;
+}
+
+.poker-hand-history .hands-list {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    height: 250px;
+    border: 2px solid #444;
+    border-radius: 6px
+}
+
+.poker-hand-history .hands-list .hand-title {
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+
+
