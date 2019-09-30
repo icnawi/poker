@@ -1,4 +1,4 @@
-export default class Hand {
+export default class Hand { // TODO: add inheritance 
 	constructor() {
 		this.combo = [];
 		this.comboTitle = '';
