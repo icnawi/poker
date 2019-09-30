@@ -1,0 +1,67 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker 
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:f7deaf81b0f222b255e03edde723c02f:12effb9e8d5084cffc003de5ff4a3c15:a9ba6b51c945505d9db03a2a1865fb96$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(cards.png);}
+
+.back {width:81px; height:117px; background-position: -1px -1px}
+.c_10 {width:81px; height:117px; background-position: -84px -1px}
+.c_2 {width:81px; height:117px; background-position: -167px -1px}
+.c_3 {width:81px; height:117px; background-position: -250px -1px}
+.c_4 {width:81px; height:117px; background-position: -333px -1px}
+.c_5 {width:81px; height:117px; background-position: -416px -1px}
+.c_6 {width:81px; height:117px; background-position: -1px -120px}
+.c_7 {width:81px; height:117px; background-position: -84px -120px}
+.c_8 {width:81px; height:117px; background-position: -167px -120px}
+.c_9 {width:81px; height:117px; background-position: -250px -120px}
+.c_A {width:81px; height:117px; background-position: -333px -120px}
+.c_J {width:81px; height:117px; background-position: -416px -120px}
+.c_K {width:81px; height:117px; background-position: -1px -239px}
+.c_Q {width:81px; height:117px; background-position: -84px -239px}
+.d_10 {width:81px; height:117px; background-position: -167px -239px}
+.d_2 {width:81px; height:117px; background-position: -250px -239px}
+.d_3 {width:81px; height:117px; background-position: -333px -239px}
+.d_4 {width:81px; height:117px; background-position: -416px -239px}
+.d_5 {width:81px; height:117px; background-position: -1px -358px}
+.d_6 {width:81px; height:117px; background-position: -84px -358px}
+.d_7 {width:81px; height:117px; background-position: -167px -358px}
+.d_8 {width:81px; height:117px; background-position: -250px -358px}
+.d_9 {width:81px; height:117px; background-position: -333px -358px}
+.d_A {width:81px; height:117px; background-position: -416px -358px}
+.d_J {width:81px; height:117px; background-position: -1px -477px}
+.d_K {width:81px; height:117px; background-position: -84px -477px}
+.d_Q {width:81px; height:117px; background-position: -167px -477px}
+.h_10 {width:81px; height:117px; background-position: -250px -477px}
+.h_2 {width:81px; height:117px; background-position: -333px -477px}
+.h_3 {width:81px; height:117px; background-position: -416px -477px}
+.h_4 {width:81px; height:117px; background-position: -1px -596px}
+.h_5 {width:81px; height:117px; background-position: -84px -596px}
+.h_6 {width:81px; height:117px; background-position: -167px -596px}
+.h_7 {width:81px; height:117px; background-position: -250px -596px}
+.h_8 {width:81px; height:117px; background-position: -333px -596px}
+.h_9 {width:81px; height:117px; background-position: -416px -596px}
+.h_A {width:81px; height:117px; background-position: -1px -715px}
+.h_J {width:81px; height:117px; background-position: -84px -715px}
+.h_K {width:81px; height:117px; background-position: -167px -715px}
+.h_Q {width:81px; height:117px; background-position: -250px -715px}
+.s_10 {width:81px; height:117px; background-position: -333px -715px}
+.s_2 {width:81px; height:117px; background-position: -416px -715px}
+.s_3 {width:81px; height:117px; background-position: -1px -834px}
+.s_4 {width:81px; height:117px; background-position: -84px -834px}
+.s_5 {width:81px; height:117px; background-position: -167px -834px}
+.s_6 {width:81px; height:117px; background-position: -250px -834px}
+.s_7 {width:81px; height:117px; background-position: -333px -834px}
+.s_8 {width:81px; height:117px; background-position: -416px -834px}
+.s_9 {width:81px; height:117px; background-position: -1px -953px}
+.s_A {width:81px; height:117px; background-position: -84px -953px}
+.s_J {width:81px; height:117px; background-position: -167px -953px}
+.s_K {width:81px; height:117px; background-position: -250px -953px}
+.s_Q {width:81px; height:117px; background-position: -333px -953px}
