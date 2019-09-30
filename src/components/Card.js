@@ -2,11 +2,9 @@ export default class Card {
     constructor(suit, rank, weight) {
         this.suit = suit;
         this.rank = rank;
-        this._className = this.generateShortCardCode(this.suit, this.rank);
-
         this.weight = weight;
-        // this.setWeight = value => _weight = value;
-        // this.getWeight = () => _weight;
+
+        this._className = this.generateShortCardCode(this.suit, this.rank);
     }
 
     getSuit() {
@@ -29,5 +27,9 @@ export default class Card {
 
     generateShortCardCode(suit, rank) {
         return `${suit.toLowerCase().slice(0, 1)}_${rank}`
+    }
+
+    getCardClassName() {
+        return this._className
     }
 }

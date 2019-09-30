@@ -42,7 +42,7 @@ export default class Game {
             let ul = document.querySelector('.randomized-hand-drop'),
                 li = document.createElement('li');
             
-            li.className = h._className;
+            li.className = h.getCardClassName();
             ul.appendChild(li)
         }
     }

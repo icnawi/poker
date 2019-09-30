@@ -1,6 +1,5 @@
 export default class Hand {
 	constructor() {
-		this.strength = 0;
 		this.combo = [];
 		this.comboTitle = '';
 
