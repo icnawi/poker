@@ -27,8 +27,6 @@ export default class Game {
             this.removeNodes();
             this.deck.checkDeckRepeat();
         }
-        
-
     }
 
     handleShowHand() {
