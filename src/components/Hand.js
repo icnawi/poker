@@ -20,14 +20,6 @@ export default class Hand { // TODO: add inheritance
 		};
 	}
 
-	getStrength() {
-		return this.strength;
-	}
-
-	setStrength(value) {
-		this.strength = value;
-	}
-
 	getCombo() {
 		return this.combo;
 	}
@@ -69,7 +61,6 @@ export default class Hand { // TODO: add inheritance
 			}
 			return x;
 		});
-		console.log(this.combo);
 
 		this.combo = this.combo.sort((a, b) => a.weight - b.weight);
 		for (var i = 1; i < this.combo.length; i++) {

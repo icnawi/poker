@@ -22,10 +22,12 @@ export default class Game {
             this.appendNodes(currentHand);
             this.deck.hand.analyzeHand();
             this.setHistory(this.deck.hand.comboTitle);
+            console.log('The deck state', this.deck.cards.length);
         } else {
             this.removeNodes();
             this.deck.checkDeckRepeat();
         }
+        
 
     }
 
